@@ -1,10 +1,10 @@
 import './App.css';
 
-function GreetingElementwithProp(props) {
-  console.log("prop is", props.msg);
+function GreetingElementwithProp({ msg }) {
+  console.log("prop is", msg);
   return (
     <div className="App">
-      <h1>{props.msg}</h1>
+      <h1>{msg}</h1>
     </div>
   );
 }
